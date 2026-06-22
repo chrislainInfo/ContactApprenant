@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription à la Newsletter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section class="container">
+        <h2>Rejoignez notre liste</h2>
+        <p>Laissez vos coordonnées pour recevoir nos prochains messages.</p>
+
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" required placeholder="Ex: Dupont">
+            </div>
+
+            <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" required placeholder="Ex: Jean">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Adresse Email</label>
+                <input type="email" id="email" required placeholder="Ex: jean.dupont@mail.com">
+            </div>
+
+            <button type="submit" id="btnSubmit">S'inscrire</button>
+        </form>
+
+        <div id="responseMessage" class="message"></div>
+    </section>
+
+    <script src="./scritp.js"></script>
+
+</body>
+</html>
